@@ -18,7 +18,7 @@ const About = () => {
 
                 <div className="about-content">
                     <div className="profile-section">
-                        <img src="./public/images/Portfolio.jpg" alt="Profile" className="profile-pic" />
+                        <img src="/images/Portfolio.jpg" alt="Profile" className="profile-pic" />
                     </div>
                     <div className="info-section">
                         <h1 className="gradient-text">RACHAEL ANOGHENA OKHAVHE</h1>

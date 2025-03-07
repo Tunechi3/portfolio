@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 
 const LandingPage = () => {
@@ -7,7 +7,7 @@ const LandingPage = () => {
     <div className="landing-container">
       <div className="hero-section">
         <div className="image-container">
-          <img src="./public/images/Portfolio.jpg" alt="Profile" className="profile-pic" height={480}/>
+          <img src="/images/Portfolio.jpg" alt="Profile" className="profile-pic" height={480}/>
         </div>
         
         <div className="text-content">
