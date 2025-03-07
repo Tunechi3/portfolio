@@ -277,7 +277,7 @@ body {
   }
 
   .social-icons {
-    flex-direction: column; /* Stack social icons vertically */
+    flex-direction: row; /* Stack social icons vertically */
     gap: 10px;
   }
 
