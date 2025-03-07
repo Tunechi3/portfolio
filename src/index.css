@@ -265,5 +265,6 @@ body {
 
   .contact-container p {
     font-size: 16px;
+    text-align: left;
   }
 }
