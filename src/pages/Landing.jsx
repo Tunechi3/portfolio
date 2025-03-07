@@ -2,7 +2,7 @@ import React from "react";
 import PortfolioImage from "../images/Portfolio.jpg"
 
 
-const LandingPage = () => {
+const Landing = () => {
   return (
     <div className="landing-container">
       <div className="hero-section">
@@ -29,4 +29,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Landing;

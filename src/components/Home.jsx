@@ -1,7 +1,9 @@
 import React from 'react'
 
 import Navbar from './Navbar'
-import LandingPage from './pages/LandingPage'
+import Landing from '../pages/Landing'
+
+
 
 
 
@@ -10,7 +12,7 @@ const Home = () => {
   return (
     <>
         <Navbar/>
-        <LandingPage/>
+        <Landing/>
     </>
   )
 }
