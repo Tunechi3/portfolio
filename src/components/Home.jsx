@@ -1,6 +1,7 @@
 import React from 'react'
-import LandingPage from '../pages/landingPage'
+
 import Navbar from './Navbar'
+import LandingPage from './pages/LandingPage'
 
 
 
