@@ -2,7 +2,7 @@ import React from 'react'
 
 import Navbar from './Navbar'
 import Landing from '../pages/Landing'
-import Footer from './Footer'
+// import Footer from './Footer'
 
 
 
@@ -14,7 +14,7 @@ const Home = () => {
     <>
         <Navbar/>
         <Landing/>
-        <Footer/>
+        {/* <Footer/> */}
     </>
   )
 }

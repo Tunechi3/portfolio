@@ -243,15 +243,16 @@ body {
 
 .social-icons {
   margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 15px; /* Space between social icons */
+  /* display: flex;
+  justify-content: center; */
+  gap: 5px; /* Space between social icons */
 }
 
 .social-icons a {
   color: white;
   text-decoration: none;
   font-size: 14px;
+  
 }
 
 .social-icons a:hover {
