@@ -232,11 +232,11 @@ body {
 
   .hero-section {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   .text-content {
-    text-align: center;
+    text-align: left;
   }
 
   .gradient-text {
@@ -245,7 +245,7 @@ body {
 
   .about-content {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   .contact-container {
@@ -256,6 +256,7 @@ body {
 @media (max-width: 480px) {
   .gradient-text {
     font-size: 30px;
+    text-align: center;
   }
 
   .contact-container h1 {
