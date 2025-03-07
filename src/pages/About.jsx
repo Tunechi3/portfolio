@@ -23,7 +23,7 @@ const About = () => {
                     <div className="info-section">
                         <h1 className="gradient-text">RACHAEL ANOGHENA OKHAVHE</h1>
                         <p>
-                            Rachael Okhavhe is a a professional makeup artist passionate about beauty and transformation with a background in Theater and Media Arts. I have a strong creative and increasing passion to learn and grow in my field.
+                            Rachael Okhavhe is a professional makeup artist passionate about beauty and transformation with a background in Theater and Media Arts. I have a strong creative and increasing passion to learn and grow in my field.
                         </p>
                         <h2 className="gradient-text">EDUCATION</h2>
                         <p>Helpers International School - (2004 - 2009)</p>
