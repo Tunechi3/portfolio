@@ -189,7 +189,7 @@ body {
 .contact-container {
   max-width: 800px;
   margin: 50px auto;
-  min-height: 50vh;
+  min-height: 40vh;
   margin-top: 120px;
   padding: 20px;
   background: #413b3b;
@@ -201,7 +201,7 @@ body {
 
 .contact-container h1 {
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .contact-container p {
@@ -220,6 +220,70 @@ body {
   text-decoration: underline;
 }
 
+
+/* Footer Styles */
+.footer {
+  background-color: #333; /* Match your navbar background */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto; /* Push footer to the bottom of the page */
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between social icons */
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.social-icons a:hover {
+  color: #ff8c00; /* Match your gradient text color */
+}
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 13px; /* Slightly smaller text for tablets */
+  }
+
+  .social-icons a {
+    font-size: 13px;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .footer p {
+    font-size: 12px; /* Smaller text for mobile */
+  }
+
+  .social-icons {
+    flex-direction: column; /* Stack social icons vertically */
+    gap: 10px;
+  }
+
+  .social-icons a {
+    font-size: 12px;
+  }
+}
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .navbar {
