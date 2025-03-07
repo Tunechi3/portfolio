@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-
+import PortfolioImage from "../images/Portfolio.jpg"
 const About = () => {
     return (
         <>
@@ -18,7 +18,7 @@ const About = () => {
 
                 <div className="about-content">
                     <div className="profile-section">
-                        <img src="/images/Portfolio.jpg" alt="Profile" className="profile-pic" />
+                    <img src={PortfolioImage} alt="Profile" className="profile-pic"  />
                     </div>
                     <div className="info-section">
                         <h1 className="gradient-text">RACHAEL ANOGHENA OKHAVHE</h1>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import PortfolioImage from "../images/Portfolio.jpg"
 
 
 const LandingPage = () => {
@@ -7,7 +7,7 @@ const LandingPage = () => {
     <div className="landing-container">
       <div className="hero-section">
         <div className="image-container">
-          <img src="/images/Portfolio.jpg" alt="Profile" className="profile-pic" height={480}/>
+        <img src={PortfolioImage} alt="Profile" className="profile-pic" height={480} />
         </div>
         
         <div className="text-content">
